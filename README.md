@@ -1,49 +1,69 @@
-Anthem Insights Explorer
+# Anthem Insights Explorer
+
 Discover the hidden themes in national anthems! 🌍 This project uses Natural Language Processing (NLP) and Machine Learning to cluster national anthems based on their semantic themes. Through thematic clustering and visualization, it provides unique insights into the interplay of culture, language, and identity.
 
-Features
-Clustering with Word2Vec: Identifies thematic clusters based on semantic similarities.
+## Features
 
-Interactive Visualization: Generates word clouds and t-SNE plots for thematic differentiation.
+- **Clustering with Word2Vec**: Identifies thematic clusters based on semantic similarities.
+- **Interactive Visualization**: Generates word clouds and t-SNE plots for thematic differentiation.
+- **Streamlit App**: Explore country-specific clusters, view colormaps, and read national anthems interactively.
 
-Streamlit App: Explore country-specific clusters, view colormaps, and read national anthems interactively.
+## Installation
 
-Installation
-Clone the repository:
+1. **Clone the repository:**
 
-bash
-git clone https://github.com/R-Sai-Chandan/Anthem-Insights-Explorer
-Navigate to the project folder:
+    ```bash
+    git clone https://github.com/R-Sai-Chandan/Anthem-Insights-Explorer
+    ```
 
-bash
-cd Anthem-Insights-Explorer
-Install dependencies:
+2. **Navigate to the project folder:**
 
-bash
-pip install -r requirements.txt
-Run the Streamlit app:
+    ```bash
+    cd Anthem-Insights-Explorer
+    ```
 
-bash
-streamlit run streamlitapp/app.py
-Project Structure
-plaintext
+3. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Streamlit app:**
+
+    ```bash
+    streamlit run streamlitapp/app.py
+    ```
+
+## Project Structure
+
+```plaintext
 Anthem-Insights-Explorer/
-├── datasets/           # Contains datasets (e.g., national_anthems.csv)
-├── images/             # Contains word cloud images for clusters
-├── CountryTrainer/     # Jupyter notebook for preprocessing and clustering
+├── datasets/                   # Contains datasets (e.g., national_anthems.csv)
+├── images/                     # Contains word cloud images for clusters
+├── CountryTrainer/             # Jupyter notebook for preprocessing and clustering
 │   ├── CountryTrainer.ipynb
-├── streamlitapp/       # Streamlit app for dynamic exploration
+├── streamlitapp/               # Streamlit app for dynamic exploration
 │   ├── app.py
-├── .gitignore          # Specifies files and directories to ignore
-└── README.md           # Project overview and instructions
+├── .gitignore                  # Specifies files and directories to ignore
+└── README.md                   # Project overview and instructions
+
+
 How It Works
-Data Preprocessing: Cleans and tokenizes anthem text, removes stopwords, and generates sentence embeddings using Word2Vec.
+1. Data Preprocessing
+Cleans and tokenizes anthem text.
 
-Clustering: Applies KMeans clustering to group anthems based on semantic themes.
+Removes stopwords.
 
-Visualization: Creates dynamic word clouds and t-SNE plots to represent thematic clusters.
+Generates sentence embeddings using Word2Vec.
 
-Interactive Exploration: The Streamlit app enables users to explore clusters, word clouds, and country-specific insights.
+2. Clustering
+Applies KMeans clustering to group anthems based on semantic themes.
+
+3. Visualization
+Creates dynamic word clouds and t-SNE plots to represent thematic clusters.
+
+4. Interactive Exploration
+The Streamlit app enables users to explore clusters, word clouds, and country-specific insights.
 
 Tech Stack
 Python: Data preprocessing and analysis.
@@ -66,3 +86,9 @@ Contributions are welcome! Feel free to fork this repository and open a pull req
 
 License
 This project is open-source and available under the MIT License. Feel free to use, modify, and share as needed.
+
+
+### Changes Made:
+- Added headers like `#`, `##`, `###` to define the structure more clearly.
+- Formatted the code blocks and commands using backticks (```) for better clarity.
+- Broke up long paragraphs into smaller, more digestible sections.
