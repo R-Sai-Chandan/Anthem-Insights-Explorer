@@ -21,6 +21,17 @@ Discover the hidden themes in national anthems! 🌍 This project uses Natural L
     ```bash
     cd Anthem-Insights-Explorer
     ```
+3. **Creating Python virtual environment**
+
+     ```bash
+    python -m venv .venv
+    ```
+
+4. **Activating the Virtual Environment**
+
+     ```bash
+    .venv/Scripts/activate
+    ```
 
 3. **Install dependencies:**
 
@@ -31,7 +42,7 @@ Discover the hidden themes in national anthems! 🌍 This project uses Natural L
 4. **Run the Streamlit app:**
 
     ```bash
-    streamlit run streamlitapp/app.py
+    streamlit run streamlitapp.py
     ```
 
 ## Project Structure
