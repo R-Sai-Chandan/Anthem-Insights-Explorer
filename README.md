@@ -33,13 +33,13 @@ Discover the hidden themes in national anthems! 🌍 This project uses Natural L
     .venv/Scripts/activate
     ```
 
-3. **Install dependencies:**
+5. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the Streamlit app:**
+6. **Run the Streamlit app:**
 
     ```bash
     streamlit run streamlitapp.py
